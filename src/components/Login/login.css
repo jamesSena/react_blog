@@ -1,0 +1,37 @@
+
+form#login{
+    widows: 100%;
+    max-width: 680px;
+    margin:30px auto 0;
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #DDD;
+    display: flex;
+    flex-direction: column;/* Um abaixo do outro tipo colunas */
+}
+form#login input{
+    margin-bottom:15px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #DDD;
+    padding:0 20px;
+    font-size: 14px;
+}
+
+form#login button{
+    border-radius: 4px;
+    border: 1px solid #DDD;
+    padding:10px 20px;
+    font-size: 18px; 
+    font-weight: bold;  
+    background: #272727;
+    color:#fff;
+    cursor: pointer;
+
+}
+form#login a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: #272727
+}
