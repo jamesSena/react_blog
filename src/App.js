@@ -4,6 +4,7 @@ import './global.css';
 import Home from './components/Home'
 import Header from './components/Header';
 import Login from './components/Login';
+import Dashboard from './components/Dashboard';
 
 import firebase from './firebase'
 class App extends Component{
@@ -24,6 +25,7 @@ componentDidMount(){
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/Login" component={Login} />
+          <Route exact path="/Dashboard" component={Dashboard} />
 
         </Switch>
       </BrowserRouter>
