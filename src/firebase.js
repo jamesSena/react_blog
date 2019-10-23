@@ -17,6 +17,7 @@ let firebaseConfig = {
 class Firebase{
     constructor(){
         firebaseApp.initializeApp(firebaseConfig);
+        this.app = firebaseApp.database();
     }
 
     login(email, password){
