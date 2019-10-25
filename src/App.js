@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Header from './components/Header';
 import Login from './components/Login';
 import Dashboard from './components/Dashboard';
+import Register from './components/Register';
 
 import firebase from './firebase'
 class App extends Component{
@@ -26,6 +27,7 @@ componentDidMount(){
           <Route exact path="/" component={Home} />
           <Route exact path="/Login" component={Login} />
           <Route exact path="/Dashboard" component={Dashboard} />
+          <Route exact path="/Register" component={Register} />
 
         </Switch>
       </BrowserRouter>

@@ -6,7 +6,7 @@ export default function Header(){
         <header id='header-main'>
             <div className='header-content'>
                 <Link to='/'> Blog </Link>
-                <Link to='/'> Entrar</Link>           
+                <Link to='/Login'> Entrar</Link>           
             </div>
         </header>
     );
