@@ -28,7 +28,9 @@ class Login extends Component{
     login = async() => {
         const {email, password} = this.state;
         try{
-            await firebase.login(email, password).catch((error)=>{
+            await firebase.login(email, password)
+            .then(()=>{alert('Sucesso!!!');})
+            .catch((error)=>{
                 if(error.code ==='auth/user-not-found'){
                     alert("usuario invalido");
                 }else{
